@@ -9,6 +9,7 @@ public class HandPivot : MonoBehaviour
     public Animator animator;
     public float delay = 0.3f;
     private bool attackBlocked;
+    public Transform player;
 
     public bool IsAttacking {get;private set; }
 
@@ -24,9 +25,12 @@ public class HandPivot : MonoBehaviour
       Vector2 scale = transform.localScale;
       if(direction.x < 0 ){
         scale.y = -1;
-      }else if(direction.x >0){
+            scale.x = -1;
+        }
+        if(direction.x >0){
         scale.y = 1;
-      }
+            scale.x = 1;
+        }
 
       transform.localScale = scale;
      
