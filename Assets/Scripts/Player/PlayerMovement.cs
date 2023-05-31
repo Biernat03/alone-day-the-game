@@ -10,10 +10,16 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rigidBody;
     public Animator animator;
     private float horizontalInput;
+    private HandPivot handPivot;
     public Camera camera;
 
     Vector2 movement;
     Vector2 mousePos;
+
+    private void Awake()
+    {
+        handPivot = GetComponentInChildren<HandPivot>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -22,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
         mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
+        handPivot.pointerPosition = mousePos;
 
         animator.SetFloat("Vertical",movement.y);
         animator.SetFloat("Horizontal",movement.x);
