@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 44af9fd3dce38a447860ade4f294ec2b
+guid: 153d53a0e70790641a871817d490945c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5710254787489035681
-    second: Player_hands_0
-  - first:
-      213: -7241887194882721648
-    second: Player_hands_1
-  - first:
-      213: 3759955276245213818
-    second: Player_hands_2
-  - first:
-      213: -8581739976749146197
-    second: Player_hands_3
+      213: 6897482256424926823
+    second: sand_grass_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -107,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_hands_0
+      name: sand_grass_0
       rect:
         serializedVersion: 2
         x: 0
@@ -121,14 +112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5a0eb6668911c0b0800000000000000
-      internalID: -5710254787489035681
+      spriteID: 76e74ca5197c8bf50800000000000000
+      internalID: 6897482256424926823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_hands_1
+      name: sand_grass_1
       rect:
         serializedVersion: 2
         x: 16
@@ -140,16 +131,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 098b09527f5af7b90800000000000000
-      internalID: -7241887194882721648
+      spriteID: 11b0f543e4e022c49bdade51262ce2ea
+      internalID: -857689580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_hands_2
+      name: sand_grass_2
       rect:
         serializedVersion: 2
         x: 0
@@ -161,31 +152,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a72a3f3176b0e2430800000000000000
-      internalID: 3759955276245213818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_hands_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: baf191b85f887e880800000000000000
-      internalID: -8581739976749146197
+      spriteID: 276090d60dc743c44b69f6c941e6c432
+      internalID: -1998862662
       vertices: []
       indices: 
       edges: []
@@ -193,7 +163,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d8005d44d6b660c409c4843aa6883de2
+    spriteID: d7c8047ee5ca9e7418dc0e7007705c37
     internalID: 0
     vertices: []
     indices: 
@@ -201,10 +171,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player_hands_0: -5710254787489035681
-      Player_hands_1: -7241887194882721648
-      Player_hands_2: 3759955276245213818
-      Player_hands_3: -8581739976749146197
+      sand_grass_0: 6897482256424926823
+      sand_grass_1: -857689580
+      sand_grass_2: -1998862662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
